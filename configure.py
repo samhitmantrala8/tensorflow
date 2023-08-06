@@ -29,6 +29,7 @@ try:
 except ImportError:
   from distutils.spawn import find_executable as which
 # pylint: enable=g-import-not-at-top
+print("i love tensorflow");
 
 _DEFAULT_CUDA_VERSION = '11'
 _DEFAULT_CUDNN_VERSION = '2'
